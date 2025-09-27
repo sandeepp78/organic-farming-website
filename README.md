@@ -25,7 +25,7 @@ The website is designed with a clean, user-friendly layout and a **navigation ba
 - **Font Awesome** – icons for dropdown indicators
 
 ## Project Structure
-  organic-farming-website/
+organic-farming-website/
 │
 ├── images/ # Images for crops and background
 ├── index.html # Home page
@@ -49,13 +49,24 @@ The website is designed with a clean, user-friendly layout and a **navigation ba
 ├── mwheat.html # Wheat more info
 └── README.md # Project documentation
 
-Screenshots
-  <img width="1895" height="902" alt="Screenshot (81)" src="https://github.com/user-attachments/assets/28ab67d3-1d18-4cb8-8686-99c4ac8cc44f" />
+## Screenshots
 
+**Home Page**  
+![Home page](https://github.com/user-attachments/assets/f77f70f2-e090-4406-8cb7-a2f5be7a9ddb)  
 
-Learning Outcomes
+**Product Page**  
+![Product page](https://github.com/user-attachments/assets/e7d970bd-a6eb-4164-96ca-ec00a5493086)  
 
-Gained experience in building multi-page websites using HTML and CSS
-Implemented dropdown menus for products and additional information
-Learned to design a responsive layout with navigation on all pages
-Practiced organizing project files in a structured way
+**More Info Page**  
+![More info page](https://github.com/user-attachments/assets/04837a7a-b8b1-4baa-beab-3d495ae1f7bf)  
+
+## 🌐 Live Demo
+Experience the Organic Farming Website here:  
+👉 [https://sandeepp78.github.io/organic-farming-website/](https://sandeepp78.github.io/organic-farming-website/)
+
+## Learning Outcomes
+- Gained experience in building multi-page websites using HTML and CSS.  
+- Implemented dropdown menus for products and additional information.  
+- Learned to design a responsive layout with navigation on all pages.  
+- Practiced organizing project files in a structured way.
+
