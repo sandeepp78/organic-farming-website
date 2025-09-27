@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEPS TO GROW GINGER</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('images/23.jpg');
+      height: 100vh;
+      width: 100vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: aliceblue;
+    }
+
+    nav {
+      height: 70px;
+      background: #063247;
+      box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    }
+
+    nav .logo {
+      color: white;
+      font-size: 33px;
+      font-weight: bold;
+      line-height: 70px;
+      padding-left: 110px;
+      float: left;
+    }
+
+    nav ul {
+      float: right;
+      margin-right: 30px;
+    }
+
+    nav ul li {
+      display: inline-block;
+      position: relative;
+    }
+
+    nav ul li a {
+      color: white;
+      display: block;
+      padding: 0 15px;
+      line-height: 70px;
+      font-size: 20px;
+      background: #063247;
+      transition: .5s;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #23dbdb;
+    }
+
+    nav ul ul {
+      position: absolute;
+      top: 85px;
+      border-top: 3px solid #23dbdb;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    nav ul li:hover > ul {
+      top: 70px;
+      opacity: 1;
+      visibility: visible;
+      transition: .3s linear;
+    }
+
+    nav ul ul li {
+      width: 180px;
+      border: 1px solid #042331;
+      border-top: none;
+      background: #063247;
+    }
+
+    nav ul ul li a {
+      line-height: 50px;
+    }
+
+    nav ul ul ul {
+      border-top: none;
+    }
+
+    nav ul ul ul li {
+      position: relative;
+      top: -70px;
+      left: 180px;
+    }
+
+    nav ul ul li a i {
+      margin-left: 45px;
+    }
+
+    .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      gap: 50px;
+      flex-wrap: wrap;
+      padding: 50px;
+      background-image: url('https://i.postimg.cc/1Xfw24D6/23.jpg');
+      background-size: cover;
+    }
+
+    .container .image img {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .image {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+    }
+
+    .text {
+      max-width: 700px;
+      color: whitesmoke;
+    }
+
+    .text h1,
+    .text h3 {
+      margin-bottom: 20px;
+      color: #2f10dd;
+    }
+
+    .text hr {
+      border: 1px solid #23dbdb;
+      margin-bottom: 20px;
+    }
+
+    .text p {
+      line-height: 1.7;
+      margin-bottom: 15px;
+      color: rgb(234, 23, 23);
+    }
+
+    .text b {
+      color: #e91d1d;
+    }
+
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+      }
+
+      .container .image img {
+        max-width: 80%;
+      }
+
+      .text {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Organic Farming</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a class="active" href="#">Products <i class="fas fa-caret-down"></i></a>
+        <ul>
+          <li>
+            <a href="beetroot.html">Beetroot <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mbeetroot.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="carrot.html">Carrot <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcarrot.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="corn.html">Corn <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcorn.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="cauliflower.html">Cauliflower <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcauliflower.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="cabbage.html">Cabbage <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcabbage.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="ginger.html">Ginger <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mginger.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="onion.html">Onion <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="monion.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="wheat.html">Wheat <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mwheat.html">more</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="image">
+      <img src="https://i.postimg.cc/Dz79sbVV/ginger1.png" alt="Ginger">
+    </div>
+    <div class="text">
+      <h1>STEPS TO GROW GINGER</h1>
+      <hr>
+      <p><b>Step 1:</b> Trim the dying/dead leaves close to the soil line.</p>
+      <p><b>Step 2:</b> Knock the entire plant out of its container. If your ginger was growing in the ground, dig up the entire plant.</p>
+      <p><b>Step 3:</b> Gently remove as much soil as possible with your hands.</p>
+      <p><b>Step 4:</b> Wash the rhizomes thoroughly under running water to clean the rhizomes, then cut them into manageable sections.</p>
+      <p><b>Step 5:</b> The rhizomes can be used immediately or stored for later use. Your ginger roots can also be frozen.</p>
+      <p><b>Step 6:</b> To keep your supply of fresh ginger going, plant one or two of the rhizomes you just harvested in a container as described above. If you live where winters bring freezing weather, you will have to grow it indoors until the following spring.</p>
+
+      <h3>HEALTH BENEFITS OF GINGER</h3>
+      <p><b>1.</b> Contains gingerol, which has potent medicinal properties</p>
+      <p><b>2.</b> Can treat morning sickness and other forms of nausea</p>
+      <p><b>3.</b> May help with weight loss</p>
+      <p><b>4.</b> Can help with osteoarthritis</p>
+      <p><b>5.</b> May lower blood sugar and improve heart disease risk factors</p>
+      <p><b>6.</b> Can help treat chronic indigestion</p>
+      <p><b>7.</b> May reduce menstrual pain</p>
+      <p><b>8.</b> May help lower cholesterol levels</p>
+      <p><b>9.</b> May help reduce cancer risk</p>
+      <p><b>10.</b> May improve brain function and protect against Alzheimer’s disease</p>
+    </div>
+  </div>
+</body>
+</html>

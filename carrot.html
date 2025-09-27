@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>STEPS TO GROW CARROT</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('images/23.jpg');
+      height: 100vh;
+      width: 100vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color:aliceblue;
+    }
+
+    /* Navbar */
+    nav {
+      height: 80px;
+      background: #063247;
+      box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    }
+
+    nav .logo {
+      color: white;
+      font-size: 33px;
+      font-weight: bold;
+      line-height: 70px;
+      padding-left: 110px;
+      float: left;
+    }
+
+    nav ul {
+      float: right;
+      margin-right: 30px;
+    }
+
+    nav ul li {
+      display: inline-block;
+      position: relative;
+    }
+
+    nav ul li a {
+      color: white;
+      display: block;
+      padding: 0 15px;
+      line-height: 70px;
+      font-size: 20px;
+      background: #063247;
+      transition: .5s;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #23dbdb;
+    }
+
+    /* Dropdown */
+    nav ul ul {
+      position: absolute;
+      top: 85px;
+      border-top: 3px solid #23dbdb;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    nav ul li:hover > ul {
+      top: 70px;
+      opacity: 1;
+      visibility: visible;
+      transition: .3s linear;
+    }
+
+    nav ul ul li {
+      width: 180px;
+      border: 1px solid #042331;
+      border-top: none;
+      background: #063247;
+    }
+
+    nav ul ul li a {
+      line-height: 50px;
+    }
+
+    nav ul ul ul {
+      border-top: none;
+    }
+
+    nav ul ul ul li {
+      position: relative;
+      top: -70px;
+      left: 180px;
+    }
+
+    nav ul ul li a i {
+      margin-left: 45px;
+    }
+    .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 50px;
+      gap: 50px;
+      flex-wrap: wrap;
+      background-image: url('https://i.postimg.cc/1Xfw24D6/23.jpg');
+      background-size: cover;
+    }
+    .container .image img {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+    .text {
+      max-width: 700px;
+      color: rgb(234, 31, 31);
+    }
+    .text h1,
+    .text h3 {
+      margin-bottom: 20px;
+      color: #1d12e7;
+    }
+    .text hr {
+      border: 1px solid #23dbdb;
+      margin-bottom: 20px;
+    }
+    .text p {
+      line-height: 1.7;
+      margin-bottom: 15px;
+      color: rgb(225, 27, 27);
+    }
+    .text b {
+      color: #ec1919;
+    }
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+      }
+      .container .image img {
+        max-width: 80%;
+      }
+      .text {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Organic Farming</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="#">Products <i class="fas fa-caret-down"></i></a>
+        <ul>
+          <li>
+            <a href="beetroot.html">Beetroot <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mbeetroot.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="carrot.html">Carrot <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcarrot.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="corn.html">Corn <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcorn.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="cauliflower.html">Cauliflower <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcauliflower.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="cabbage.html">Cabbage <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcabbage.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="ginger.html">Ginger <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mginger.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="onion.html">Onion <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="monion.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="wheat.html">Wheat <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mwheat.html">more</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="image">
+      <img src="https://i.postimg.cc/fy6R8bwm/carrot-PNG4994.png" alt="Carrot">
+    </div>
+    <div class="text">
+      <h1>STEPS TO GROW CARROT</h1>
+      <hr>
+      <p><b>Step 1 :</b> Plant your carrots in Spring (February - March) or in Fall (October - November).</p>
+      <p><b>Step 2 :</b> Carrot plants need direct sunlight.</p>
+      <p><b>Step 3 :</b> Plant carrots in soft, permeable loose soil.</p>
+      <p><b>Step 4 :</b> Plant seeds about 2 inches away from each other.</p>
+      <p><b>Step 5 :</b> Use a container that is at least 18 inches deep if container growing.</p>
+      <p><b>Step 6 :</b> Water carrots regularly; keep soil evenly moist.</p>
+      <p><b>Step 7 :</b> Protect carrots from pests and diseases.</p>
+      <p><b>Step 8 :</b> Harvest carrots when mature and enjoy fresh carrots.</p>
+
+      <h3>HEALTH BENEFITS OF CARROTS</h3>
+      <p><b>1.</b> Reduced risk of some cancers.</p>
+      <p><b>2.</b> Lower blood cholesterol.</p>
+      <p><b>3.</b> Support for weight loss and management.</p>
+      <p><b>4.</b> Good for eye health (beta-carotene).</p>
+      <p><b>5.</b> Helps balance blood sugar.</p>
+      <p><b>6.</b> Supports immune function.</p>
+      <p><b>7.</b> May boost brain health.</p>
+      <p><b>8.</b> Provides vitamins and minerals for overall health.</p>
+    </div>
+  </div>
+</body>
+</html>
+

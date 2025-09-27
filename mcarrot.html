@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carrot Info</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('images/23.jpg');
+      height: 100vh;
+      width: 100vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color:aliceblue;
+    }
+
+    /* Navbar */
+    nav {
+      height: 70px;
+      background: #063247;
+      box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    }
+
+    nav .logo {
+      color: white;
+      font-size: 33px;
+      font-weight: bold;
+      line-height: 70px;
+      padding-left: 110px;
+      float: left;
+    }
+
+    nav ul {
+      float: right;
+      margin-right: 30px;
+    }
+
+    nav ul li {
+      display: inline-block;
+      position: relative;
+    }
+
+    nav ul li a {
+      color: white;
+      display: block;
+      padding: 0 15px;
+      line-height: 70px;
+      font-size: 20px;
+      background: #063247;
+      transition: .5s;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #23dbdb;
+    }
+
+    /* Dropdown */
+    nav ul ul {
+      position: absolute;
+      top: 85px;
+      border-top: 3px solid #23dbdb;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    nav ul li:hover > ul {
+      top: 70px;
+      opacity: 1;
+      visibility: visible;
+      transition: .3s linear;
+    }
+
+    nav ul ul li {
+      width: 180px;
+      border: 1px solid #042331;
+      border-top: none;
+      background: #063247;
+    }
+
+    nav ul ul li a {
+      line-height: 50px;
+    }
+
+    nav ul ul ul {
+      border-top: none;
+    }
+
+    nav ul ul ul li {
+      position: relative;
+      top: -70px;
+      left: 180px;
+    }
+
+    nav ul ul li a i {
+      margin-left: 45px;
+    }
+
+    /* Container */
+    .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 50px;
+      gap: 50px;
+      flex-wrap: wrap;
+      background-image: url('https://i.postimg.cc/1Xfw24D6/23.jpg');
+      background-size: cover;
+      height: calc(100vh - 70px);
+    }
+
+    .container img {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    }
+
+    .text {
+      max-width: 700px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: #e20e0e;
+    }
+
+    .text h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #3e04ecea;
+    }
+
+    .text hr {
+      margin: 10px 0;
+      border: 2px solid #e20e0e;
+    }
+
+    .text b {
+      color: #d72c05;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">Organic Farming</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="#">Products <i class="fas fa-caret-down"></i></a>
+        <ul>
+          <li>
+            <a href="beetroot.html">Beetroot <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mbeetroot.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="carrot.html">Carrot <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcarrot.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="corn.html">Corn <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcorn.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="cauliflower.html">Cauliflower <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcauliflower.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="cabbage.html">Cabbage <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcabbage.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="ginger.html">Ginger <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mginger.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="onion.html">Onion <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="monion.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="wheat.html">Wheat <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mwheat.html">more</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="image">
+      <img src="https://i.postimg.cc/fy6R8bwm/carrot-PNG4994.png" alt="Carrot">
+    </div>
+    <div class="text">
+      <h1>Avoidance of Pests (Carrot)</h1>
+      <hr>
+      <p>
+        <b>1.</b> Till in the Fall.<br>
+        <b>2.</b> Put in Plants that Draw Beneficial Insects. Not all insects are bad, in fact, many of them are wonderful for your garden because they eat destructive insects.<br>
+        <b>3.</b> Insert Floating Row Covers.<br>
+        <b>4.</b> Practice Companion Planting.<br>
+        <b>5.</b> The most useful control measure is to apply soil insecticide before planting, but the parasitic nematode Steinernema scapterisci can also be an effective control agent.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

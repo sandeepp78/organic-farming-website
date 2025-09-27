@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Organic Farming</title>
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('images/23.jpg');
+      height: 100vh;
+      width: 100vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color:aliceblue;
+    }
+
+    /* Navbar */
+    nav {
+      height: 80px;
+      background: #063247;
+      box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    }
+
+    nav .logo {
+      color: white;
+      font-size: 33px;
+      font-weight: bold;
+      line-height: 70px;
+      padding-left: 110px;
+      float: left;
+    }
+
+    nav ul {
+      float: right;
+      margin-right: 30px;
+    }
+
+    nav ul li {
+      display: inline-block;
+      position: relative;
+    }
+
+    nav ul li a {
+      color: white;
+      display: block;
+      padding: 0 15px;
+      line-height: 70px;
+      font-size: 20px;
+      background: #063247;
+      transition: .5s;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #23dbdb;
+    }
+
+    /* Dropdown */
+    nav ul ul {
+      position: absolute;
+      top: 85px;
+      border-top: 3px solid #23dbdb;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    nav ul li:hover > ul {
+      top: 70px;
+      opacity: 1;
+      visibility: visible;
+      transition: .3s linear;
+    }
+
+    nav ul ul li {
+      width: 180px;
+      border: 1px solid #042331;
+      border-top: none;
+      background: #063247;
+    }
+
+    nav ul ul li a {
+      line-height: 50px;
+    }
+
+    nav ul ul ul {
+      border-top: none;
+    }
+
+    nav ul ul ul li {
+      position: relative;
+      top: -70px;
+      left: 180px;
+    }
+
+    nav ul ul li a i {
+      margin-left: 45px;
+    }
+
+    /* Page content */
+    .text {
+      font-size: 20px;
+      color: rgb(218, 16, 16);
+      padding: 30px;
+      background-image: url('https://i.postimg.cc/1Xfw24D6/23.jpg');
+      background-size: cover;
+    }
+
+    .text h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #4e10eb;
+    }
+
+    .text h2 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      color: red;
+    }
+
+    .text p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+      color:black;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <div class="logo">Organic Farming</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="#">Products <i class="fas fa-caret-down"></i></a>
+        <ul>
+          <li>
+            <a href="beetroot.html">Beetroot <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mbeetroot.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="carrot.html">Carrot <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcarrot.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="corn.html">Corn <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcorn.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="cauliflower.html">Cauliflower <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcauliflower.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="cabbage.html">Cabbage <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcabbage.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="ginger.html">Ginger <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mginger.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="onion.html">Onion <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="monion.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="wheat.html">Wheat <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mwheat.html">more</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- Page content -->
+  <div class="text">
+    <h1>BIOLOGICAL FARMING</h1>
+    <h2>What is Organic Farming?</h2>
+    <p>Organic farming, also known as Biological farming, focuses on locally grown products and large-scale use of local resources. It avoids the need for synthetic fertilizers, relying instead on natural methods of crop production and management. It is also called “Organic Agriculture”.</p>
+
+    <h2>The organic farming mainly relies upon:</h2>
+    <p>
+      Crop rotations<br>
+      Use of crop residues<br>
+      Animal manures<br>
+      Legumes<br>
+      Green manures<br>
+      Off-farm organic wastes<br>
+      Bio fertilizers<br>
+      Mechanical cultivation<br>
+      Mineral-bearing rocks<br>
+      Control of insects, weeds, and other pests<br>
+    </p>
+
+    <h2>Advantages</h2>
+    <p>
+      • Helps maintain environmental health by reducing pollution.<br>
+      • Reduces human and animal health hazards from chemical residues.<br>
+      • Keeps agricultural production at a sustainable level.<br>
+      • Reduces cost of production and improves soil health.<br>
+      • Ensures optimum use of natural resources and conserves them for the future.<br>
+      • Saves energy for both animals and machines, and reduces risk of crop failure.<br>
+      • Improves soil physical properties like granulation, tilth, aeration, and water-holding capacity.<br>
+      • Improves soil chemical properties by retaining nutrients and promoting favorable chemical reactions.<br>
+    </p>
+  </div>
+</body>
+</html>

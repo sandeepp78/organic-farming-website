@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Beetroot Guide</title>
+  <style>
+        * {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      text-decoration: none;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-image: url('images/23.jpg');
+      height: 100vh;
+      width: 100vw;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color:aliceblue;
+    }
+
+    /* Navbar */
+    nav {
+      height: 80px;
+      background: #063247;
+      box-shadow: 0 3px 15px rgba(0,0,0,.4);
+    }
+
+    nav .logo {
+      color: white;
+      font-size: 33px;
+      font-weight: bold;
+      line-height: 70px;
+      padding-left: 110px;
+      float: left;
+    }
+
+    nav ul {
+      float: right;
+      margin-right: 30px;
+    }
+
+    nav ul li {
+      display: inline-block;
+      position: relative;
+    }
+
+    nav ul li a {
+      color: white;
+      display: block;
+      padding: 0 15px;
+      line-height: 70px;
+      font-size: 20px;
+      background: #063247;
+      transition: .5s;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      color: #23dbdb;
+    }
+
+    /* Dropdown */
+    nav ul ul {
+      position: absolute;
+      top: 85px;
+      border-top: 3px solid #23dbdb;
+      opacity: 0;
+      visibility: hidden;
+    }
+
+    nav ul li:hover > ul {
+      top: 70px;
+      opacity: 1;
+      visibility: visible;
+      transition: .3s linear;
+    }
+
+    nav ul ul li {
+      width: 180px;
+      border: 1px solid #042331;
+      border-top: none;
+      background: #063247;
+    }
+
+    nav ul ul li a {
+      line-height: 50px;
+    }
+
+    nav ul ul ul {
+      border-top: none;
+    }
+
+    nav ul ul ul li {
+      position: relative;
+      top: -70px;
+      left: 180px;
+    }
+
+    nav ul ul li a i {
+      margin-left: 45px;
+    }
+    /* Main container */
+    .container {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      padding: 50px;
+      gap: 50px;
+      flex-wrap: wrap;
+      background-image: url('https://i.postimg.cc/1Xfw24D6/23.jpg');
+      background-size: cover;
+    }
+
+    .container .image img {
+      max-width: 400px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+     .image{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .text {
+      max-width: 700px;
+    }
+
+    .text h1,
+    .text h3 {
+      margin-bottom: 20px;
+      color: #3c0adf;
+    }
+
+    .text p {
+      line-height: 1.7;
+      margin-bottom: 15px;
+      color: #d40c0c;
+    }
+
+    hr {
+      border: 1px solid #23dbdb;
+      margin-bottom: 20px;
+    }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+      }
+
+      .container .image img {
+        max-width: 80%;
+      }
+
+      .text {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+    <nav>
+    <div class="logo">Organic Farming</div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="#">Products <i class="fas fa-caret-down"></i></a>
+        <ul>
+          <li>
+            <a href="beetroot.html">Beetroot <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mbeetroot.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="carrot.html">Carrot <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcarrot.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="corn.html">Corn <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcorn.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="cauliflower.html">Cauliflower <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcauliflower.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="cabbage.html">Cabbage <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mcabbage.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="ginger.html">Ginger <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mginger.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="onion.html">Onion <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="monion.html">more</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="wheat.html">Wheat <i class="fas fa-caret-right"></i></a>
+            <ul>
+              <li><a href="mwheat.html">more</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a class="active" href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <div class="image">
+      <img src="https://i.postimg.cc/yNyGYptv/beet.png" alt="Beetroot">
+    </div>
+    <div class="text">
+      <h1>STEPS TO GROW BEETROOT</h1>
+      <hr>
+      <p><b>Step 1:</b> Place the seeds in damp potting soil at a distance of one inch from each other.</p>
+      <p><b>Step 2:</b> Cover the seeds with soil and water again.</p>
+      <p><b>Step 3:</b> Within 24 days, the seeds will have sprouted.</p>
+      <p><b>Step 4:</b> Carefully remove the saplings and transfer them to a larger container or garden soil.</p>
+      <p><b>Note:</b> The beets must be grown in a shady area, watered once a week, and provided with mild, homemade fertilizers after a few weeks of growth.</p>
+
+      <h3>HEALTH BENEFITS OF BEETROOT:</h3>
+      <p><b>1.</b> Beetroot can reduce high blood pressure.<br>
+         <b>2.</b> Beetroot can help people with heart failure and heart disease.<br>
+         <b>3.</b> Beetroot can help you exercise for longer.<br>
+         <b>4.</b> Beetroot can help fight against cancer cells.<br>
+         <b>5.</b> Beetroot can help symptoms of long-term conditions.</p>
+      <p><b>a) Diabetes:</b> The antioxidant alpha-lipoic acid can reduce glucose levels and improve insulin sensitivity.</p>
+      <p><b>b) Dementia:</b> A high nitrate diet may improve oxygen flow to the brain in older adults.</p>
+      <p><b>6.</b> Beetroot helps you keep your weight in check.<br>
+         <b>7.</b> Maintains healthy potassium levels.<br>
+         <b>8.</b> Strengthens your bones.<br>
+         <b>9.</b> Maintains a healthy liver.<br>
+         <b>10.</b> Promotes a healthy pregnancy.</p>
+    </div>
+  </div>
+</body>
+</html>
